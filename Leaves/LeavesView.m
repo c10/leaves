@@ -20,6 +20,7 @@ CGFloat distance(CGPoint a, CGPoint b);
 
 @synthesize delegate;
 @synthesize leafEdge, currentPageIndex, backgroundRendering, preferredTargetWidth;
+@synthesize zoomActive;
 
 - (void) setUpLayers {
 	self.clipsToBounds = YES;
