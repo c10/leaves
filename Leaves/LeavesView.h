@@ -44,6 +44,7 @@
 
 @property (assign) id<LeavesViewDataSource> dataSource;
 @property (assign) id<LeavesViewDelegate> delegate;
+@property (readonly) BOOL zoomActive;
 
 // the automatically determined width of the interactive areas on either side of the page
 @property (readonly) CGFloat targetWidth;
